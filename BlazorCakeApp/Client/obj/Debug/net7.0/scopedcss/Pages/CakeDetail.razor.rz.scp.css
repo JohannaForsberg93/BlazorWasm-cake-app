@@ -1,0 +1,32 @@
+
+.img-class[b-2dpsfipdzc] {
+    height: 600px;
+    /*width: 450px;*/
+    object-fit: contain;
+}
+.background-color[b-2dpsfipdzc] {
+    background: #ffffff;
+
+}
+.col-width-height[b-2dpsfipdzc] {
+    height: 600px;
+    width: 600px;
+    margin-bottom: 100px;
+}
+.details-style h3[b-2dpsfipdzc] {
+    font-size: 1.8rem;
+}
+.details-style h5[b-2dpsfipdzc] {
+    font-size: 1.3rem;
+}
+.description-style[b-2dpsfipdzc] {
+    margin-top: 4rem;
+    font-size: 1.2rem;
+}
+.purchase-button-style button[b-2dpsfipdzc] {
+    margin-top: 3.5rem;
+}
+.container-style[b-2dpsfipdzc] {
+    background: #E6CBCB;
+    margin-bottom: 1.5rem;
+}

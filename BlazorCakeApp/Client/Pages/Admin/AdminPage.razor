@@ -1,0 +1,20 @@
+@page "/admin";
+@inject AuthenticationStateProvider _authenticationStateProvider
+
+<div class="container">
+	<h1>Test @test</h1>
+</div>
+
+@code
+{
+
+	string test = string.Empty;
+
+	protected override async Task OnInitializedAsync()
+	{
+		var user = await _authenticationStateProvider.GetAuthenticationStateAsync();
+		test = user.User.Identity.Name;
+
+	}
+
+}

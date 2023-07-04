@@ -1,0 +1,32 @@
+﻿
+.img-class {
+    height: 600px;
+    /*width: 450px;*/
+    object-fit: contain;
+}
+.background-color {
+    background: #ffffff;
+
+}
+.col-width-height {
+    height: 600px;
+    width: 600px;
+    margin-bottom: 100px;
+}
+.details-style h3 {
+    font-size: 1.8rem;
+}
+.details-style h5 {
+    font-size: 1.3rem;
+}
+.description-style {
+    margin-top: 4rem;
+    font-size: 1.2rem;
+}
+.purchase-button-style button {
+    margin-top: 3.5rem;
+}
+.container-style {
+    background: #E6CBCB;
+    margin-bottom: 1.5rem;
+}

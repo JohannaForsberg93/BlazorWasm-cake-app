@@ -1,0 +1,33 @@
+﻿
+.body {
+    background-color: #C27979;
+}
+.card .img-fit {
+    object-fit: cover;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-text {
+    flex-grow: 1;
+}
+
+.text-end {
+    display: flex;
+    text-align: start !important;
+}
+
+.test {
+    background-color: #F3CCCC!important;
+}
+.margin-bottom-style {
+    margin-bottom: 50px;
+}

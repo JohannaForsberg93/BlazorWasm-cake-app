@@ -1,0 +1,127 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@inject NavigationManager Navigation
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #C27979 ">
+	
+	<div class="container-fluid">
+
+		<a class="navbar-brand p-2" href="#"><img src="cake-favicon.svg" style="width:50px;height:50px;" /></a>
+		<a class="navbar-brand fs-3" href="#">HappyCake</a>
+
+		@*En toggle vid små skärmar*@
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+
+		<div class="collapse navbar-collapse" id="navbarNav">
+
+			<ul class="navbar-nav ms-auto mx-4">
+				<li class="nav-item ">
+					<a class="nav-link text-uppercase fs-5 fw-normal text-dark" href="/cake">Tårtor</a>
+				</li>
+				<li class="nav-item px-3">
+					<a class="nav-link text-uppercase fs-5 fw-normal text-dark" href="#">Om oss</a>
+				</li>
+
+				<AuthorizeView>
+					<Authorized>
+						
+
+
+						@if (context.User.Identity?.Name == "johanna@gmail.com")
+						{
+							<div class="dropdown">
+								<a class="btn dropdown-toggle nav-link text-uppercase fs-5 fw-normal text-dark"
+									type="button"
+									id="dropdownMenuButton"
+									data-mdb-toggle="dropdown"
+									aria-expanded="false"
+								>
+									ADMIN
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<li><a class="dropdown-item" href="/admin/cakes">Tårtor</a></li>
+@*									<li><a class="dropdown-item" href="#">Kunder</a></li>
+									<li><a class="dropdown-item" href="#">Ordrar</a></li>*@
+									<li><a class="dropdown-item" href="/admin/add">Skapa ny tårta</a></li>
+
+								</ul>
+							</div>
+						}
+						else
+						{
+							<li class="nav-item">
+								<a class="nav-link text-uppercase fs-5 fw-normal text-dark" href="#">Mina sidor</a>
+							</li>
+						}
+
+						@*						<li class="nav-item">
+							<span href="authentication/profile">Hej, @context.User.Identity?.Name!</span>
+						</li>*@
+						<li class="nav-item">
+							<a class="nav-link btn btn-link nav-link text-uppercase fs-5 fw-normal text-dark" @onclick="BeginLogOut">Logga ut</a>
+
+						</li>
+					</Authorized>
+				</AuthorizeView>
+
+				<li class="nav-item">
+					<a class="nav-link text-uppercase fs-5 fw-normal text-dark" href="authentication/login">
+						<i class="fa-regular fa-user"></i>
+					</a>
+				</li>
+
+
+				<li class="nav-item">
+					<a class="nav-link text-uppercase fs-5 fw-normal text-dark" href="Cart">
+						<i class="fa-solid fa-cart-shopping"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+</nav>
+
+
+
+@*<AuthorizeView>
+	<Authorized>
+		<div class="pt-2">
+			<a href="authentication/profile">Hello, @context.User.Identity?.Name!</a>
+			<button class="nav-link btn btn-link" @onclick="BeginLogOut">Log out</button>
+		</div>
+	</Authorized>
+	<NotAuthorized>
+		<div>
+			<a href="authentication/register">Register</a>
+
+		</div>
+		<a href="authentication/login">Log in</a>
+	</NotAuthorized>
+</AuthorizeView>*@
+
+
+
+
+@code {
+	private void BeginLogOut()
+	{
+		Navigation.NavigateToLogout("authentication/logout");
+	}
+}
+
+<style>
+	.dropdown:hover>.dropdown-menu {
+		display: block;
+	}
+
+	.dropdown>.dropdown-toggle:active {
+		/*Without this, clicking will make it sticky*/
+		pointer-events: none;
+	}
+
+
+</style>

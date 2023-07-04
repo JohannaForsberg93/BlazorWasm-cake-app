@@ -1,0 +1,73 @@
+﻿@page "/admin/add"
+@using BlazorCakeApp.Shared.Dto
+
+@inject NavigationManager navigationManager
+@inject ICakeRepository CakeRepository
+
+<div class="container">
+
+	<h3 class="text-center">Skapa ny tårta</h3>
+
+	<EditForm Model="@NewCake" OnSubmit="Add">
+		<div>
+			<label for="name" class="form-label">Tårtnamn</label>
+			<InputText id="name" class="form-control" @bind-Value="NewCake.CakeName" />
+		</div>
+
+		<div class="mb-3">
+			<label for="price" class="form-label">Pris</label>
+			<InputNumber id="price" class="form-control" @bind-Value="NewCake.Price"></InputNumber>
+		</div>
+
+		<div class="mb-3">
+			<label for="description" class="form-label">Beskrivning</label>
+			<InputTextArea id="description" class="form-control" @bind-Value="NewCake.Description"></InputTextArea>
+		</div>
+
+		<div class="mb-3">
+			<label for="ingredients" class="form-label">Ingredienser</label>
+			<InputText id="ingredients" class="form-control" @bind-Value="NewCake.Ingredients"></InputText>
+		</div>
+
+		<div class="mb-3">
+			<label for="allergens" class="form-label">Allergener</label>
+			<InputText id="allergens" class="form-control" @bind-Value="NewCake.Allergens"></InputText>
+		</div>
+
+		<div class="mb-3">
+			<label for="available" class="form-label">Tillgänglig</label>
+			<InputCheckbox id="available" class="form-check-input" @bind-Value="NewCake.Available"></InputCheckbox>
+
+		</div>
+
+		<div class="mb-4">
+			<button type="submit" class="btn btn-primary">Lägg till tårta</button>
+
+		</div>
+	</EditForm>
+
+	<div class="pb-4">
+		@if (test == true)
+		{
+			<div>
+				<p>Lyckades lägga till tårta!</p>
+			</div>
+
+		}
+	</div>
+
+</div>
+
+@code {
+
+	CakeDto NewCake = new CakeDto();
+
+	bool test = false;
+
+	private async Task Add()
+	{
+		await CakeRepository.AddNewCake(NewCake);
+		test = true;
+	}
+
+}

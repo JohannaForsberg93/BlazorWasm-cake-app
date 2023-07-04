@@ -1,0 +1,84 @@
+﻿@page "/cake/admin/{id}";
+@using BlazorCakeApp.Shared.Dto
+@inject ICakeRepository CakeRepository
+
+<div class="container">
+	<h3 class="text-center">Redigera @CurrentCake.CakeName</h3>
+
+	<EditForm Model="@CurrentCake" OnSubmit="Update">
+		<div>
+			<label for="name" class="form-label">Tårtnamn</label>
+			<InputText id="name" class="form-control" @bind-Value="CurrentCake.CakeName" />
+		</div>
+
+		<div class="mb-3">
+			<label for="price" class="form-label">Pris</label>
+			<InputNumber id="price" class="form-control" @bind-Value="CurrentCake.Price"></InputNumber>
+		</div>
+
+		<div class="mb-3">
+			<label for="description" class="form-label">Beskrivning</label>
+			<InputTextArea id="description" class="form-control" @bind-Value="CurrentCake.Description"></InputTextArea>
+		</div>
+
+		<div class="mb-3">
+			<label for="ingredients" class="form-label">Ingredienser</label>
+			<InputText id="ingredients" class="form-control" @bind-Value="CurrentCake.Ingredients"></InputText>
+		</div>
+
+		<div class="mb-3">
+			<label for="allergens" class="form-label">Allergener</label>
+			<InputText id="allergens" class="form-control" @bind-Value="CurrentCake.Allergens"></InputText>
+		</div>
+
+		<div class="mb-3">
+			<label for="available" class="form-label">Tillgänglig</label>
+			<InputCheckbox id="available" class="form-check-input" @bind-Value="CurrentCake.Available"></InputCheckbox>
+
+		</div>
+
+		<div class="mb-4">
+			<button type="submit" class="btn btn-primary">Uppdatera</button>
+		</div>
+	</EditForm>
+ 
+	<div class="pb-4">
+		@if (test == true)
+		{
+			<div>
+				<p>Lyckades uppdatera tårta!</p>
+			</div>
+		}
+	</div>
+
+
+</div>
+
+
+@code {
+	[Parameter]
+	public string Id { get; set; }
+
+	CakeDto CurrentCake = new CakeDto();
+
+	bool test = false;
+
+	protected override async Task OnInitializedAsync()
+	{
+		await CakeRepository.GetCakeById(Id);
+		CurrentCake = CakeRepository.CakeById;
+	}
+
+	private async Task Update()
+	{
+		await CakeRepository.UpdateCake(Id, CurrentCake);
+		test = true;
+	}
+
+}
+
+<style>
+	.text-center {
+		text-align: center;
+	}
+</style>

@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = BlazorCakeApp.Client
+build_property.RootNamespace = BlazorCakeApp.Client
+build_property.ProjectDir = C:\Users\Johanna\source\Webbkurs\BlazorWasmCake\BlazorCakeApp\Client\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Johanna\source\Webbkurs\BlazorWasmCake\BlazorCakeApp\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Johanna/source/Webbkurs/BlazorWasmCake/BlazorCakeApp/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Johanna/source/Webbkurs/BlazorWasmCake/BlazorCakeApp/Client/Pages/Admin/AddNewCake.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkTmV3Q2FrZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Johanna/source/Webbkurs/BlazorWasmCake/BlazorCakeApp/Client/Pages/Admin/AdminCakes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRtaW5DYWtlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Johanna/source/Webbkurs/BlazorWasmCake/BlazorCakeApp/Client/Pages/Admin/AdminPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRtaW5QYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Johanna/source/Webbkurs/BlazorWasmCake/BlazorCakeApp/Client/Pages/Admin/UpdateCake.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXBkYXRlQ2FrZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Johanna/source/Webbkurs/BlazorWasmCake/BlazorCakeApp/Client/Pages/Authentication.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Johanna/source/Webbkurs/BlazorWasmCake/BlazorCakeApp/Client/Pages/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Johanna/source/Webbkurs/BlazorWasmCake/BlazorCakeApp/Client/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Johanna/source/Webbkurs/BlazorWasmCake/BlazorCakeApp/Client/Shared/NewMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5ld01lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Johanna/source/Webbkurs/BlazorWasmCake/BlazorCakeApp/Client/Shared/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Johanna/source/Webbkurs/BlazorWasmCake/BlazorCakeApp/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Johanna/source/Webbkurs/BlazorWasmCake/BlazorCakeApp/Client/Pages/CakeDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FrZURldGFpbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-2dpsfipdzc
+
+[C:/Users/Johanna/source/Webbkurs/BlazorWasmCake/BlazorCakeApp/Client/Pages/Cakes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FrZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ujtk010sqy
+
+[C:/Users/Johanna/source/Webbkurs/BlazorWasmCake/BlazorCakeApp/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-9px4b7zi4h
+
+[C:/Users/Johanna/source/Webbkurs/BlazorWasmCake/BlazorCakeApp/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-lvtksdcz0f
+
+[C:/Users/Johanna/source/Webbkurs/BlazorWasmCake/BlazorCakeApp/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-1tu1nhefwz

@@ -1,0 +1,107 @@
+﻿@page "/admin/cakes"
+@using BlazorCakeApp.Client.Pages
+@using BlazorCakeApp.Shared
+
+@using BlazorCakeApp.Shared.Dto
+
+@inject NavigationManager navigationManager
+@inject ICakeRepository CakeRepository
+
+
+<div class="container">
+
+	<div class="container py-4">
+		<div class="row">
+			<div class="col-md-5 mx-auto">
+				<div class="small fw-light"></div>
+				<div class="input-group">
+					<input class="form-control border-end-0 border rounded-pill" type="search" placeholder="Sök" @bind-value="searchText" @bind-value:event="oninput">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row g-3 mt-3">
+		@foreach (var cake in FilteredCakes)
+		{
+			if (cake.Available == true)
+			{
+				<div class="col md-4 col-4 margin-bottom-style">
+					<div class="card">
+						<img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=789&q=80" class="card-img-top img-fit" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">@cake.CakeName</h5>
+							<p class="card-text">@cake.Description</p>
+							<div class="text-end">
+								<h5 class="card-text float-lg-start fw-bold">@cake.Price :-</h5>
+								<button @onclick="() => RemoveCake(cake.Id)" class="btn btn-secondary float-md-start mx-2">Radera</button>
+								<a href="/cake/admin/@cake.Id" class="btn btn-primary">Ändra</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			}
+		}
+	</div>
+</div>
+
+
+@code {
+
+	public string searchText = string.Empty;
+
+	List<CakeDto> FilteredCakes => CakeRepository.Cakes.Where(
+		cake => cake.CakeName.ToLower().Contains(searchText.ToLower())).ToList();
+
+
+
+	protected override async Task OnInitializedAsync()
+		{
+		await CakeRepository.GetAllCakes();
+
+		}
+
+	private async Task RemoveCake(string id)
+	{
+		await CakeRepository.DeleteCake(id);
+	}
+
+}
+
+<style>
+	
+	.body {
+		background-color: #C27979;
+	}
+	.card .img-fit {
+		object-fit: cover;
+	}
+
+	.card {
+		height: 100%;
+	}
+
+	.card-body {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
+
+	.card-text {
+		flex-grow: 1;
+	}
+
+	.text-end {
+		display: flex;
+		text-align: start !important;
+	}
+
+	.test {
+		background-color: #F3CCCC!important;
+	}
+	.margin-bottom-style {
+		margin-bottom: 50px;
+	}
+</style>
+
+

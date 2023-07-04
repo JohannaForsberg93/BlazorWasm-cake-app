@@ -1,0 +1,59 @@
+﻿@page "/cake/{id}"
+@using BlazorCakeApp.Shared.Dto
+@inject ICakeRepository CakeRepository
+
+
+<div class="container-fluid ">
+
+
+	<div class="row d-flex justify-content-center mt-5">
+			
+		<img class="img-class img-fluid col-lg-6 align-self-center justify-content-center align-items-center mt-5 col-width-height" src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80" />
+			
+	
+			<div class="col-md-6 text-left align-self-center background-color col-width-height mt-5">
+				<div class="m-5 details-style">
+					<h3>@CurrentCake.CakeName</h3>
+					<h5>@CurrentCake.Price:-</h5>
+					<p class="description-style">@CurrentCake.Description</p>
+					<div class="d-grid purchase-button-style">
+						<button class="btn btn-primary btn-block"><i class="fa-solid fa-circle-plus p-1"></i> Lägg till i varukorg</button>
+					</div>
+					<div class="d-grid">
+						<div class="btn-block mt-5">
+							<h5>Ingredienser</h5>
+							<p>@CurrentCake.Ingredients</p>
+						</div>
+
+					</div>
+					<div class="d-grid mt-1">
+						<div class="btn-block">
+							<h5>Allergener</h5>
+							<p>@CurrentCake.Allergens</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		
+	</div>
+
+
+</div>
+
+
+@code {
+
+	[Parameter]
+	public string Id { get; set; }
+
+	CakeDto CurrentCake = new CakeDto();
+
+
+	protected override async Task OnInitializedAsync()
+	{
+		await CakeRepository.GetCakeById(Id);
+		 CurrentCake = CakeRepository.CakeById;
+	}
+
+}

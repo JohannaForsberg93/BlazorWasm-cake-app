@@ -1,0 +1,33 @@
+
+.body[b-ujtk010sqy] {
+    background-color: #C27979;
+}
+.card .img-fit[b-ujtk010sqy] {
+    object-fit: cover;
+}
+
+.card[b-ujtk010sqy] {
+    height: 100%;
+}
+
+.card-body[b-ujtk010sqy] {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-text[b-ujtk010sqy] {
+    flex-grow: 1;
+}
+
+.text-end[b-ujtk010sqy] {
+    display: flex;
+    text-align: start !important;
+}
+
+.test[b-ujtk010sqy] {
+    background-color: #F3CCCC!important;
+}
+.margin-bottom-style[b-ujtk010sqy] {
+    margin-bottom: 50px;
+}
