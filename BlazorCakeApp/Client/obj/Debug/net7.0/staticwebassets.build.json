@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "29ZouYawvSuRlm/SpqNSozGnZygAYZFP41J7sKLbXNw=",
+  "Hash": "aE8KzT9/m6mzGb/eZRI15ecPiy/Q99RD+l21CpFAPos=",
   "Source": "BlazorCakeApp.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\7.0.2\\staticwebassets\\AuthenticationService.js",
+      "Identity": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\7.0.8\\staticwebassets\\AuthenticationService.js",
       "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\7.0.2\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\7.0.8\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
       "RelativePath": "AuthenticationService.js",
       "AssetKind": "All",
@@ -31,7 +31,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\7.0.2\\staticwebassets\\AuthenticationService.js"
+      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\7.0.8\\staticwebassets\\AuthenticationService.js"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\AWSSDK.Core.dll",
@@ -99,7 +99,7 @@
       "AssetTraitValue": "boot",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.2\\build\\net7.0\\blazor.webassembly.js"
+      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.8\\build\\net7.0\\blazor.webassembly.js"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\BlazorCakeApp.Client.dll",
@@ -168,6 +168,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Shared\\bin\\Debug\\net7.0\\BlazorCakeApp.Shared.pdb"
+    },
+    {
+      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "SourceId": "BlazorCakeApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\blazored.localstorage\\4.3.0\\lib\\net7.0\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\DnsClient.dll",
@@ -320,7 +337,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.2\\lib\\net7.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.8\\lib\\net7.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
@@ -337,7 +354,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\7.0.2\\lib\\net7.0\\Microsoft.AspNetCore.Components.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\7.0.8\\lib\\net7.0\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -354,7 +371,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.2\\lib\\net7.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.8\\lib\\net7.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -371,7 +388,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.2\\lib\\net7.0\\Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.8\\lib\\net7.0\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
@@ -388,7 +405,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.2\\lib\\net7.0\\Microsoft.AspNetCore.Components.Web.dll"
+      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.8\\lib\\net7.0\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
@@ -405,7 +422,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\7.0.2\\lib\\net7.0\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
+      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\7.0.8\\lib\\net7.0\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -422,7 +439,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.2\\lib\\net7.0\\Microsoft.AspNetCore.Components.WebAssembly.dll"
+      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.8\\lib\\net7.0\\Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
@@ -439,7 +456,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.2\\lib\\net7.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.8\\lib\\net7.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -490,7 +507,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.2\\lib\\net7.0\\Microsoft.Extensions.Configuration.Binder.dll"
+      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.4\\lib\\net7.0\\Microsoft.Extensions.Configuration.Binder.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.dll",
@@ -660,7 +677,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\lib\\net7.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\lib\\net7.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -694,7 +711,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\lib\\net7.0\\Microsoft.Extensions.Options.dll"
+      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\lib\\net7.0\\Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
@@ -728,7 +745,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.jsinterop\\7.0.2\\lib\\net7.0\\Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.jsinterop\\7.0.8\\lib\\net7.0\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
@@ -745,7 +762,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.jsinterop.webassembly\\7.0.2\\lib\\net7.0\\Microsoft.JSInterop.WebAssembly.dll"
+      "OriginalItemSpec": "C:\\Users\\Johanna\\.nuget\\packages\\microsoft.jsinterop.webassembly\\7.0.8\\lib\\net7.0\\Microsoft.JSInterop.WebAssembly.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.VisualBasic.Core.dll",
@@ -3859,23 +3876,6 @@
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.dll"
     },
     {
-      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\1Mff8yyC.gz",
-      "SourceId": "BlazorCakeApp.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
-    },
-    {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\2G9ktbyb.gz",
       "SourceId": "BlazorCakeApp.Client",
       "SourceType": "Computed",
@@ -3908,6 +3908,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Win32.Primitives.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\2vkk3hLV.gz",
+      "SourceId": "BlazorCakeApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\331FOC85.gz",
@@ -3959,23 +3976,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\MongoDB.Driver.dll"
-    },
-    {
-      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\3knkXk+E.gz",
-      "SourceId": "BlazorCakeApp.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\3t+esz55.gz",
@@ -4148,6 +4148,23 @@
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\mscorlib.dll"
     },
     {
+      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\6FKZku+H.gz",
+      "SourceId": "BlazorCakeApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/blazor.webassembly.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js"
+    },
+    {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\7AhdukuC.gz",
       "SourceId": "BlazorCakeApp.Client",
       "SourceType": "Computed",
@@ -4231,6 +4248,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.VisualBasic.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\8G0jGwjG.gz",
+      "SourceId": "BlazorCakeApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\8l7Yc66U.gz",
@@ -4573,6 +4607,40 @@
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Threading.Tasks.Parallel.dll"
     },
     {
+      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\cI9yPVeB.gz",
+      "SourceId": "BlazorCakeApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\ckUS+9Mh.gz",
+      "SourceId": "BlazorCakeApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll"
+    },
+    {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\cOvzDJkH.gz",
       "SourceId": "BlazorCakeApp.Client",
       "SourceType": "Computed",
@@ -4639,23 +4707,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.ServiceProcess.dll"
-    },
-    {
-      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\CZVSWgzI.gz",
-      "SourceId": "BlazorCakeApp.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\d+MOuXrA.gz",
@@ -4794,23 +4845,6 @@
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\AWSSDK.Core.dll"
     },
     {
-      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\ePD+DOoB.gz",
-      "SourceId": "BlazorCakeApp.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
-    },
-    {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\EsK6r+ry.gz",
       "SourceId": "BlazorCakeApp.Client",
       "SourceType": "Computed",
@@ -4930,6 +4964,23 @@
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\AWSSDK.SecurityToken.dll"
     },
     {
+      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\G290pCha.gz",
+      "SourceId": "BlazorCakeApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
+    },
+    {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\g6r+itT2.gz",
       "SourceId": "BlazorCakeApp.Client",
       "SourceType": "Computed",
@@ -4945,23 +4996,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Reflection.dll"
-    },
-    {
-      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\G7dpshdT.gz",
-      "SourceId": "BlazorCakeApp.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.WebAssembly.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\gD+Bmsb+.gz",
@@ -5372,6 +5406,23 @@
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Collections.dll"
     },
     {
+      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\JduwSBJd.gz",
+      "SourceId": "BlazorCakeApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
+    },
+    {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\jgkfdyri.gz",
       "SourceId": "BlazorCakeApp.Client",
       "SourceType": "Computed",
@@ -5404,6 +5455,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Linq.Parallel.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\jN0qljOn.gz",
+      "SourceId": "BlazorCakeApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Configuration.Binder.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Binder.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Binder.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\JsEvfzwL.gz",
@@ -5440,21 +5508,21 @@
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\MongoDB.Driver.Core.dll"
     },
     {
-      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\jY446Zat.gz",
+      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\Jv2isxj+.gz",
       "SourceId": "BlazorCakeApp.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
+      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\k+czLxyR.gz",
@@ -5797,6 +5865,23 @@
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Diagnostics.Tracing.dll"
     },
     {
+      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\NDiYjoOf.gz",
+      "SourceId": "BlazorCakeApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
+    },
+    {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\nDLpQR6a.gz",
       "SourceId": "BlazorCakeApp.Client",
       "SourceType": "Computed",
@@ -5914,6 +5999,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Physical.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\obB+8hcM.gz",
+      "SourceId": "BlazorCakeApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\OCH9++Ju.gz",
@@ -6120,6 +6222,23 @@
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Private.CoreLib.dll"
     },
     {
+      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\PeeIoA1O.gz",
+      "SourceId": "BlazorCakeApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.WebAssembly.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll"
+    },
+    {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\PuwyfsRj.gz",
       "SourceId": "BlazorCakeApp.Client",
       "SourceType": "Computed",
@@ -6169,23 +6288,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Private.DataContractSerialization.dll"
-    },
-    {
-      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\Q5Hqdg3q.gz",
-      "SourceId": "BlazorCakeApp.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\Q9L67vGW.gz",
@@ -6358,23 +6460,6 @@
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Threading.Tasks.Dataflow.dll"
     },
     {
-      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\QY3MIoDx.gz",
-      "SourceId": "BlazorCakeApp.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/blazor.webassembly.js.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js"
-    },
-    {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\Rg+fLrcD.gz",
       "SourceId": "BlazorCakeApp.Client",
       "SourceType": "Computed",
@@ -6407,6 +6492,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Resources.ResourceManager.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\rmIHaz2e.gz",
+      "SourceId": "BlazorCakeApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\rPUnAwG8.gz",
@@ -6528,23 +6630,6 @@
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.Serialization.Formatters.dll"
     },
     {
-      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\sI69HO7g.gz",
-      "SourceId": "BlazorCakeApp.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
-    },
-    {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\slI+4kmc.gz",
       "SourceId": "BlazorCakeApp.Client",
       "SourceType": "Computed",
@@ -6579,23 +6664,6 @@
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.VisualC.dll"
     },
     {
-      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\t1oq+GY6.gz",
-      "SourceId": "BlazorCakeApp.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll"
-    },
-    {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\tc6wK6NR.gz",
       "SourceId": "BlazorCakeApp.Client",
       "SourceType": "Computed",
@@ -6628,23 +6696,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.Quic.dll"
-    },
-    {
-      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\TfGjAdwQ.gz",
-      "SourceId": "BlazorCakeApp.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\TisbwM31.gz",
@@ -6817,23 +6868,6 @@
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Reflection.DispatchProxy.dll"
     },
     {
-      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\vO2gnkkO.gz",
-      "SourceId": "BlazorCakeApp.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Configuration.Binder.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Binder.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Binder.dll"
-    },
-    {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\vQaEl3Iq.gz",
       "SourceId": "BlazorCakeApp.Client",
       "SourceType": "Computed",
@@ -6900,6 +6934,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Transactions.dll"
+    },
+    {
+      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\wco+9L+6.gz",
+      "SourceId": "BlazorCakeApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\WDt1odDa.gz",
@@ -7004,23 +7055,6 @@
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll"
     },
     {
-      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\wTHtKQMo.gz",
-      "SourceId": "BlazorCakeApp.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
-    },
-    {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\wv0ZQ8YQ.gz",
       "SourceId": "BlazorCakeApp.Client",
       "SourceType": "Computed",
@@ -7106,6 +7140,23 @@
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.Serialization.Json.dll"
     },
     {
+      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\XJQa2EGF.gz",
+      "SourceId": "BlazorCakeApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
+    },
+    {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\xkEXHcgJ.gz",
       "SourceId": "BlazorCakeApp.Client",
       "SourceType": "Computed",
@@ -7155,23 +7206,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Runtime.Handles.dll"
-    },
-    {
-      "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\xQ996yi9.gz",
-      "SourceId": "BlazorCakeApp.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "C:\\Users\\Johanna\\source\\Webbkurs\\BlazorWasmCake\\BlazorCakeApp\\Client\\obj\\Debug\\net7.0\\build-gz\\xyWBbZp3.gz",

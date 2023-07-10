@@ -1,6 +1,11 @@
 ﻿@using Microsoft.AspNetCore.Components.Authorization
 @using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using BlazorCakeApp.Shared.Dto
+@using BlazorCakeApp.Client.Repositories
 @inject NavigationManager Navigation
+@inject ISyncLocalStorageService LocalStorage
+@inject ICartRepository CartRepository
+@implements IDisposable 
 
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #C27979 ">
 	
@@ -27,8 +32,6 @@
 
 				<AuthorizeView>
 					<Authorized>
-						
-
 
 						@if (context.User.Identity?.Name == "johanna@gmail.com")
 						{
@@ -75,8 +78,10 @@
 
 
 				<li class="nav-item">
-					<a class="nav-link text-uppercase fs-5 fw-normal text-dark" href="Cart">
+
+					<a class=" nav-link text-uppercase fs-5 fw-normal text-dark" href="Cart">
 						<i class="fa-solid fa-cart-shopping"></i>
+						<span class="badge badge-pill badge-light">@GetCakeCount()</span>
 					</a>
 				</li>
 			</ul>
@@ -107,6 +112,23 @@
 
 
 @code {
+
+	protected override void OnInitialized()
+	{
+		CartRepository.OnChange += StateHasChanged;
+	}
+
+	public void Dispose()
+	{
+		CartRepository.OnChange -= StateHasChanged;
+	}
+
+	private int GetCakeCount()
+	{
+		var cart = LocalStorage.GetItem<List<OrderDto>>("cart");
+		return cart != null ? cart.Count : 0;
+	}
+
 	private void BeginLogOut()
 	{
 		Navigation.NavigateToLogout("authentication/logout");
@@ -114,6 +136,7 @@
 }
 
 <style>
+
 	.dropdown:hover>.dropdown-menu {
 		display: block;
 	}
@@ -122,6 +145,4 @@
 		/*Without this, clicking will make it sticky*/
 		pointer-events: none;
 	}
-
-
 </style>

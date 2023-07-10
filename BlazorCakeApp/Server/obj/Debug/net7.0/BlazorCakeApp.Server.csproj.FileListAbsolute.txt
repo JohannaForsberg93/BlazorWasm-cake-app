@@ -259,3 +259,6 @@ C:\Users\Johanna\source\Webbkurs\BlazorWasmCake\BlazorCakeApp\Server\obj\Debug\n
 C:\Users\Johanna\source\Webbkurs\BlazorWasmCake\BlazorCakeApp\Server\obj\Debug\net7.0\BlazorCakeApp.Server.pdb
 C:\Users\Johanna\source\Webbkurs\BlazorWasmCake\BlazorCakeApp\Server\obj\Debug\net7.0\BlazorCakeApp.Server.genruntimeconfig.cache
 C:\Users\Johanna\source\Webbkurs\BlazorWasmCake\BlazorCakeApp\Server\obj\Debug\net7.0\ref\BlazorCakeApp.Server.dll
+C:\Users\Johanna\source\Webbkurs\BlazorWasmCake\BlazorCakeApp\Server\bin\Debug\net7.0\Blazored.LocalStorage.dll
+C:\Users\Johanna\source\Webbkurs\BlazorWasmCake\BlazorCakeApp\Server\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Johanna\source\Webbkurs\BlazorWasmCake\BlazorCakeApp\Server\bin\Debug\net7.0\Microsoft.Extensions.Options.dll

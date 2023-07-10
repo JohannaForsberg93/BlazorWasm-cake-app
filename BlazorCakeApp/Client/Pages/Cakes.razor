@@ -1,11 +1,10 @@
 ﻿@page "/cake"
-@using BlazorCakeApp.Client.Pages
-@using BlazorCakeApp.Shared
-
 @using BlazorCakeApp.Shared.Dto
-
+@using BlazorCakeApp.Client.Repositories
 @inject NavigationManager navigationManager
 @inject ICakeRepository CakeRepository
+@inject ILocalStorageService LocalStorage
+@inject ICartRepository CartRepository
 
 
 <div class="container">
@@ -36,7 +35,7 @@
 							<p class="card-text">@cake.Description</p>
 							<div class="text-end">
 								<h5 class="card-text float-lg-start fw-bold">@cake.Price :-</h5>
-								<button class="btn btn-secondary float-md-start mx-2">Köp</button>
+								<button @onclick="() => AddToCart(cake)"  class="btn btn-secondary float-md-start mx-2">Köp</button>
 								<a href="/cake/@cake.Id" class="btn btn-primary">Läs mer</a>
 							</div>
 						</div>
@@ -52,6 +51,7 @@
 
 	public string searchText = string.Empty;
 
+
 	List<CakeDto> FilteredCakes => CakeRepository.Cakes.Where(
 		cake => cake.CakeName.ToLower().Contains(searchText.ToLower())).ToList();
 
@@ -63,15 +63,24 @@
 
 	}
 
-	//private async Task HandleButton(string id)
+	private async Task AddToCart(CakeDto cake)
+	{
+		await CartRepository.AddToCart(cake);
+
+	//var cart = await LocalStorage.GetItemAsync <List<OrderDto>>("cart");
+
+	//if (cart == null)
 	//{
-	//	//await CakeRepository.GetCakeById(id);
-
-	//	//ChosenCake = CakeRepository.CakeById.ToList();
-
-	//	//CakeContainer.SetValue(ChosenCake);
-	//	navigationManager.NavigateTo($"cake/{id}");
+	//	cart = new List<OrderDto>();
+	//	cart.Add(new OrderDto { Cake = cake.CakeName, Amount = 1, Price = cake.Price });
+	//	await LocalStorage.SetItemAsync("cart", cart);
 	//}
+	//else
+	//{
+	//	cart.Add(new OrderDto { Cake = cake.CakeName, Amount = 1, Price = cake.Price });
+	//	await LocalStorage.SetItemAsync("cart", cart);
+	//}
+	}
 }
 
 
